@@ -1,0 +1,21 @@
+---
+layout: default
+title: "Mục Lục Tác Phẩm"
+---
+
+<h1>Tuyển Tập Tác Phẩm</h1>
+<div class="meta">Danh sách truyện đọc</div>
+
+<ul style="list-style-type: none; padding: 0; margin-top: 30px;">
+  {% for post in site.posts %}
+    <li style="margin-bottom: 20px; border-bottom: 1px dashed #d1c7b7; padding-bottom: 14px;">
+      <span style="color: #777; font-size: 0.95rem;">{{ post.date | date: "%d/%m/%Y" }}</span> — 
+      <a href="{{ post.url | relative_url }}" style="color: #2b2b2b; text-decoration: none; font-size: 1.25rem; font-weight: bold;">
+        {{ post.title }}
+      </a>
+      {% if post.author %}
+        <span style="color: #555; font-style: italic; margin-left: 8px;">— {{ post.author }}</span>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
