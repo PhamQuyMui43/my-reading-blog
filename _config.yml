@@ -4,3 +4,6 @@ baseurl: "/my-reading-blog"
 url: "https://ten-user-cua-ban.github.io"
 exclude:
   - README.md
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
