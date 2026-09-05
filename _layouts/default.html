@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <style>
+    body {
+      background-color: #ede8dc;
+      color: #2b2b2b;
+      font-family: Georgia, 'Times New Roman', serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 30px 15px;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      background-color: #faf6eb;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+      padding: 50px 70px;
+      box-sizing: border-box;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.2rem;
+      margin-bottom: 8px;
+    }
+    .meta {
+      text-align: center;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 30px;
+    }
+    p {
+      text-indent: 1.8em;
+      margin: 0 0 1.2em 0;
+      text-align: justify;
+      font-size: 1.15rem;
+    }
+    .story-image-wrap {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .story-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    .image-caption {
+      font-size: 0.95rem;
+      font-style: italic;
+      color: #555;
+      margin-top: 8px;
+    }
+    .back-home {
+      display: inline-block;
+      margin-top: 30px;
+      color: #7b241c;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    @media (max-width: 768px) {
+      .container { padding: 25px 20px; }
+      p { font-size: 1.05rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    {{ content }}
+  </div>
+</body>
+</html>
