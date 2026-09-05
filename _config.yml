@@ -7,3 +7,6 @@ exclude:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+exclude:
+  - templates
+  - mau
