@@ -1,0 +1,6 @@
+title: "Phủi Bụi Lãng Quên"
+description: "Blog truyện và tác phẩm chọn lọc"
+baseurl: "/my-reading-blog"
+url: "https://ten-user-cua-ban.github.io"
+exclude:
+  - README.md
