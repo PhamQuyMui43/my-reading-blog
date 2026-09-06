@@ -3,21 +3,12 @@ layout: default
 title: "Mục Lục - Phủi Bụi Lãng Quên"
 ---
 
+<!-- KHU VỰC BANNER ẢNH -->
 <div class="banner-image-wrapper">
   <img src="{{ '/assets/phuibui.png' | relative_url }}" alt="Banner Phủi Bụi Lãng Quên" class="banner-img">
 </div>
-.banner-image-wrapper {
-  margin-bottom: 35px;
-  text-align: center;
-}
-.banner-img {
-  width: 100%;
-  max-height: 320px;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
 
+<!-- KHU VỰC DANH SÁCH MỤC LỤC TÁC PHẨM -->
 <section class="catalog-section">
   <div class="section-header">
     <h2 class="section-title">Mục Lục Tác Phẩm</h2>
@@ -54,42 +45,21 @@ title: "Mục Lục - Phủi Bụi Lãng Quên"
   </ul>
 </section>
 
+<!-- CSS BẮT BUỘC PHẢI BỌC TRONG THẺ <style> -->
 <style>
-  /* Banner phong cách hoài niệm, trang nhã */
-  .banner-box {
-    background: linear-gradient(135deg, #2b3a42 0%, #1c262b 100%);
-    color: #f7f5f0;
+  .banner-image-wrapper {
+    margin-bottom: 35px;
     text-align: center;
-    padding: 45px 25px;
+  }
+  .banner-img {
+    width: 100%;
+    max-height: 320px;
+    object-fit: cover;
     border-radius: 8px;
-    margin-bottom: 40px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  }
-  .banner-title {
-    margin: 0;
-    font-size: 2.1rem;
-    letter-spacing: 2.5px;
-    font-weight: 700;
-    font-family: Georgia, 'Times New Roman', serif;
-    color: #f0e6d2;
-  }
-  .banner-tagline {
-    margin: 14px 0 10px 0;
-    font-style: italic;
-    font-size: 1.05rem;
-    color: #d1d8dc;
-    opacity: 0.9;
-  }
-  .banner-stats {
-    font-size: 0.85rem;
-    color: #a2b0b7;
-    margin-top: 15px;
-    border-top: 1px solid rgba(255, 255, 255, 0.15);
-    display: inline-block;
-    padding-top: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: block;
   }
 
-  /* Tiêu đề mục */
   .section-header {
     display: flex;
     align-items: center;
@@ -108,7 +78,6 @@ title: "Mục Lục - Phủi Bụi Lãng Quên"
     width: 100%;
   }
 
-  /* Danh sách bài viết */
   .post-list {
     list-style: none;
     padding: 0;
@@ -140,17 +109,14 @@ title: "Mục Lục - Phủi Bụi Lãng Quên"
     border-radius: 4px;
     font-size: 0.75rem;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
   }
   .post-entry-title {
     margin: 0 0 8px 0;
     font-size: 1.35rem;
-    line-height: 1.4;
   }
   .post-entry-title a {
     color: #2b3a42;
     text-decoration: none;
-    transition: color 0.2s;
   }
   .post-entry-title a:hover {
     color: #b35434;
@@ -171,13 +137,5 @@ title: "Mục Lục - Phủi Bụi Lãng Quên"
     color: #888;
     font-style: italic;
     padding: 20px 0;
-  }
-
-  /* Tối ưu cho điện thoại */
-  @media (max-width: 600px) {
-    .banner-box { padding: 30px 15px; margin-bottom: 25px; }
-    .banner-title { font-size: 1.6rem; letter-spacing: 1px; }
-    .banner-tagline { font-size: 0.95rem; }
-    .post-entry-title { font-size: 1.2rem; }
   }
 </style>
