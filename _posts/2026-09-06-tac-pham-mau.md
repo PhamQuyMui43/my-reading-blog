@@ -10,7 +10,8 @@ description: "Một trích đoạn văn xuôi cổ điển về thời gian, bó
 # TÙY BIẾN MÀU NỀN, MÀU CHỮ VÀ FONT RIÊNG CHO BÀI NÀY:
 bg_color: "#fbf8f1"       # Màu giấy cổ điển
 text_color: "#2c2621"     # Màu chữ nâu than trầm dịu mắt
-font_family: "Georgia, 'Times New Roman', serif"
+font_family: ""'Roboto Slab', serif"
+font_size: "18px"
 ---
 
 Mỗi cuốn sách cũ nằm im trong góc tủ đều mang một số phận riêng. Chúng lặng lẽ tích tụ từng lớp bụi của năm tháng, chờ đợi một bàn tay hữu duyên mở từng trang giấy đã ố vàng theo mùa thu.
