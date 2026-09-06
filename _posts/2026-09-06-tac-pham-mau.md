@@ -10,7 +10,7 @@ description: "Một trích đoạn văn xuôi cổ điển về thời gian, bó
 # TÙY BIẾN MÀU NỀN, MÀU CHỮ VÀ FONT RIÊNG CHO BÀI NÀY:
 bg_color: "#fbf8f1"       # Màu giấy cổ điển
 text_color: "#2c2621"     # Màu chữ nâu than trầm dịu mắt
-font_family: ""'Roboto Slab', serif"
+font_family: "'Roboto Slab', serif"
 font_size: "18px"
 ---
 
