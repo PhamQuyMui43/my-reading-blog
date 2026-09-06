@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bản Án Của Lão Imber"
+title: "The League of the Old Men"
 author: "Jack London"
 translator: "Phủi Bụi Lãng Quên"
 date: 2026-09-07
