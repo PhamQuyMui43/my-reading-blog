@@ -11,3 +11,5 @@ git push origin Jekyll
 git remote set-url origin "https://PhamQuyMui43:TOKEN_MOI@github.com/PhamQuyMui43/my-reading-blog.git"
 +Kiểm tra lại URL đã vào đúng chuẩn:
 git remote -v
+HOANTAT:
+git push origin HEAD:Jekyll

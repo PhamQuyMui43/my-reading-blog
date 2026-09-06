@@ -3,13 +3,20 @@ layout: default
 title: "Mục Lục - Phủi Bụi Lãng Quên"
 ---
 
-<div class="banner-box">
-  <h1 class="banner-title">PHỦI BỤI LÃNG QUÊN</h1>
-  <p class="banner-tagline">Nơi gom nhặt những trang văn, câu thơ và mảnh chữ bị thời gian lãng quên</p>
-  <div class="banner-stats">
-    <span>Tủ sách cá nhân &middot; {{ site.posts.size }} bài viết</span>
-  </div>
+<div class="banner-image-wrapper">
+  <img src="{{ '/assets/banner.jpg' | relative_url }}" alt="Banner Phủi Bụi Lãng Quên" class="banner-img">
 </div>
+.banner-image-wrapper {
+  margin-bottom: 35px;
+  text-align: center;
+}
+.banner-img {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
 
 <section class="catalog-section">
   <div class="section-header">
