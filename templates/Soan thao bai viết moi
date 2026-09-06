@@ -1,0 +1,85 @@
+Quy trình hoàn chỉnh từ lúc mở file soạn thảo cho đến khi bài viết xuất hiện trên trang web bao gồm 3 bước:
+
+---
+
+### Bước 1: Tạo và soạn thảo bài viết
+
+1. Trong thư mục **`_posts/`**, tạo một file mới đặt tên theo đúng định dạng ngày tháng:
+* Ví dụ: `2026-09-07-khuc-ca-mua-thu.md`
+
+
+2. Mở file và dán phần thiết lập giao diện chuẩn ở đầu trang:
+
+```yaml
+---
+layout: post
+title: "Khúc Ca Mùa Thu"
+author: "Khuyết danh"
+translator: "Phủi Bụi Lãng Quên"
+date: 2026-09-07
+category: "Dịch thuật"
+
+# Tùy biến giao diện cho riêng bài viết này:
+font_family: "'Roboto Slab', serif"
+font_size: "18px"
+bg_color: "#fbf8f1"
+text_color: "#2c2621"
+---
+
+```
+
+3. Nhấn tổ hợp phím **`Ctrl + K`** rồi buông tay ra nhấn tiếp **`V`** để mở màn hình xem trước song song bên cạnh.
+4. Viết nội dung bài đọc bên dưới dấu `---` đóng:
+* **Bôi đậm:** `**từ ngữ cần bôi đậm**`
+* *In nghiêng:* `*từ ngữ in nghiêng*`
+* **Đoạn trích/Ghi chú người dịch:**
+```html
+<div class="translator-note">
+  <strong>Lời người dịch:</strong> Đoạn trích dẫn hoài niệm...
+</div>
+
+```
+
+
+* **Chèn ảnh góc phải:**
+```html
+<div class="img-right">
+  <img src="/my-reading-blog/assets/dado.gif" alt="Ảnh minh họa">
+  <span class="caption">Mô tả ảnh</span>
+</div>
+
+```
+
+
+
+
+5. Nhấn **Ctrl + S** để lưu lại.
+
+---
+
+### Bước 2: Đẩy bài viết lên máy chủ GitHub
+
+Mở cửa sổ Terminal trong VS Code và chạy tuần tự 3 lệnh:
+
+```powershell
+git add .
+git commit -m "Dang bai viet Khuc Ca Mua Thu"
+git push origin jekyll
+
+```
+
+---
+
+### Bước 3: Xem kết quả trên trang web
+
+1. Đợi khoảng 1 phút để máy chủ GitHub Pages tự động nạp bài mới.
+2. Truy cập địa chỉ blog:
+```text
+https://phamquymui43.github.io/my-reading-blog/
+
+```
+
+
+3. Nhấn **Ctrl + F5** để làm mới bộ nhớ đệm:
+* **Trang chủ (`index.html`):** Tự động xuất hiện tiêu đề bài viết mới, ngày đăng và thẻ danh mục ở đầu mục lục.
+* **Trang đọc bài:** Click vào tiêu đề bài viết, toàn bộ bài sẽ hiển thị đúng màu nền `#fbf8f1`, màu chữ và font chữ tùy chọn đã khai báo.
