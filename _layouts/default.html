@@ -3,74 +3,119 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} - {{ site.title }}</title>
+  <title>{{ page.title | default: site.title | default: "Phủi Bụi Lãng Quên" }}</title>
+  
   <style>
+    /* 1. Thiết lập Responsive & Khung trang đọc sách */
+    *, *::before, *::after { box-sizing: border-box; }
+    
     body {
-      background-color: #ede8dc;
-      color: #2b2b2b;
-      font-family: Georgia, 'Times New Roman', serif;
-      line-height: 1.8;
       margin: 0;
-      padding: 30px 15px;
+      padding: 0;
+      background-color: {{ page.bg_color | default: "#fcfbf7" }}; /* Mặc định màu giấy ngà nhẹ dịu mắt */
+      color: {{ page.text_color | default: "#2c3e50" }};
+      font-family: {{ page.font_family | default: "Georgia, 'Times New Roman', serif" }};
+      line-height: 1.8;
+      font-size: 18px;
     }
-    .container {
-      max-width: 1100px;
+
+    .main-container {
+      max-width: 780px; /* Độ rộng tối ưu cho mắt đọc chữ văn học */
       margin: 0 auto;
-      background-color: #faf6eb;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-      padding: 50px 70px;
-      box-sizing: border-box;
+      padding: 25px 20px 60px 20px;
     }
-    h1 {
-      text-align: center;
-      font-size: 2.2rem;
-      margin-bottom: 8px;
-    }
-    .meta {
-      text-align: center;
-      font-style: italic;
-      color: #666;
+
+    /* Thanh điều hướng tối giản trên đầu */
+    .site-header {
+      padding: 15px 0 25px 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
       margin-bottom: 30px;
+      display: table;
+      width: 100%;
     }
-    p {
-      text-indent: 1.8em;
-      margin: 0 0 1.2em 0;
-      text-align: justify;
-      font-size: 1.15rem;
+    .site-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: inherit;
+      letter-spacing: 1px;
     }
-    .story-image-wrap {
-      text-align: center;
-      margin: 30px 0;
+    .site-nav {
+      float: right;
     }
-    .story-image {
+    .site-nav a {
+      text-decoration: none;
+      color: inherit;
+      margin-left: 15px;
+      font-size: 0.95rem;
+      opacity: 0.8;
+    }
+    .site-nav a:hover { opacity: 1; text-decoration: underline; }
+
+    /* 2. Hỗ trợ chèn ảnh Responsive & Chữ bao quanh */
+    img {
       max-width: 100%;
       height: auto;
       border-radius: 4px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     }
-    .image-caption {
-      font-size: 0.95rem;
+
+    .img-right {
+      float: right;
+      margin: 0 0 15px 20px;
+      max-width: 45%;
+      text-align: center;
+    }
+    .img-left {
+      float: left;
+      margin: 0 20px 15px 0;
+      max-width: 45%;
+      text-align: center;
+    }
+    .caption {
+      display: block;
+      font-size: 0.85em;
+      color: #777;
+      margin-top: 5px;
       font-style: italic;
-      color: #555;
-      margin-top: 8px;
     }
-    .back-home {
-      display: inline-block;
-      margin-top: 30px;
-      color: #7b241c;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 1.1rem;
+    .clearfix { clear: both; }
+
+    /* 3. Khung Lời người dịch / Ghi chú */
+    .translator-note {
+      border-left: 4px solid #b38867;
+      background: rgba(0, 0, 0, 0.03);
+      padding: 12px 18px;
+      margin: 25px 0;
+      font-style: italic;
+      border-radius: 0 6px 6px 0;
     }
-    @media (max-width: 768px) {
-      .container { padding: 25px 20px; }
-      p { font-size: 1.05rem; }
+
+    /* Co giãn mượt mà trên màn hình điện thoại */
+    @media (max-width: 600px) {
+      body { font-size: 16.5px; }
+      .main-container { padding: 15px; }
+      .img-right, .img-left {
+        float: none;
+        max-width: 100%;
+        margin: 15px 0;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    {{ content }}
+
+  <div class="main-container">
+    <header class="site-header">
+      <a class="site-title" href="{{ '/' | relative_url }}">PHỦI BỤI LÃNG QUÊN</a>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Mục Lục</a>
+      </nav>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
   </div>
+
 </body>
 </html>
