@@ -1,0 +1,70 @@
+Thông tin này đã làm rõ toàn bộ sự khác nhau giữa hai blog. Hai blog này độc lập hoàn toàn từ tài khoản, email, địa chỉ kho chứa cho đến nhánh làm việc:
+
+| Thông số                 | Blog 1 (Phủi Bụi Lãng Quên) | Blog 2 (My Reading Blog) |
+| ---                      | ---                         | ---                      |
+|Email**                   | `72vietnam@gmail.com`       | `thudo.72@gmail.com` |
+|Tài khoản GitHub**        | `72vietnam-ai`              | `PhamQuyMui43` |
+| **Tên Repo**             | `PhuiBuiLangQuen`            | `my-reading-blog` |
+| **Nhánh chạy blog** |      **`main`**                   | **`Jekyll`** *(chữ J hoa)* |
+| **Địa chỉ trang web**    | `[https://72vietnam-ai.github.io/PhuiBuiLangQuen/](https://72vietnam-ai.github.io/PhuiBuiLangQuen/)` | `[https://phamquymui43.github.io/my-reading-blog/](https://phamquymui43.github.io/my-reading-blog/)` |
+
+
+
+### Quy tắc làm việc riêng cho từng Blog trên máy tính
+
+Để máy tính không bị "loạn", không bị ghi nhầm tên tác giả hay đẩy nhầm nhánh, bạn hãy mở riêng từng thư mục dự án trong VS Code và cài đặt chuẩn theo từng bên:
+
+#### 1. Khi đang ở thư mục Blog 1 (`PhuiBuiLangQuen`):
+
+Mở Terminal của thư mục này, cấu hình cố định 1 lần duy nhất:
+
+```powershell
+git config user.name "72vietnam-ai"
+git config user.email "72vietnam@gmail.com"
+
+```
+
+**Cụm lệnh push khi viết bài mới hoặc sửa đổi:**
+
+```powershell
+git add .
+git commit -m "Cap nhat noi dung blog PhuiBuiLangQuen"
+git push origin main
+
+```
+
+---
+
+#### 2. Khi đang ở thư mục Blog 2 (`my-reading-blog`):
+
+Mở Terminal của thư mục này, cấu hình cố định 1 lần duy nhất:
+
+```powershell
+git config user.name "PhamQuyMui43"
+git config user.email "thudo.72@gmail.com"
+
+```
+
+**Cụm lệnh push khi viết bài mới hoặc sửa đổi:**
+*(Vì repo này dùng nhánh **`Jekyll`** chữ J viết hoa, bạn dùng lệnh sau để tránh gõ nhầm chữ thường):*
+
+```powershell
+git add .
+git commit -m "Cap nhat noi dung blog My Reading Blog"
+git push origin HEAD:Jekyll
+
+```
+
+---
+
+### Mẹo kiểm tra nhanh trước khi push
+
+Mỗi khi mở VS Code lên, trước khi gõ lệnh push, bạn chỉ cần gõ:
+
+```powershell
+git remote -v
+
+```
+
+* Nếu thấy xuất hiện `PhamQuyMui43` $\rightarrow$ Đẩy bằng lệnh: `git push origin HEAD:Jekyll`
+* Nếu thấy xuất hiện `72vietnam-ai` $\rightarrow$ Đẩy bằng lệnh: `git push origin main`
