@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Bản Dịch Một Khúc Ca Cổ"
-author: "Khuyết danh"
+title: "The League of the Old Men"
+author: "Jack London"
 translator: "Phủi Bụi Lãng Quên"
 date: 2026-09-06
 category: "Dịch thuật"
