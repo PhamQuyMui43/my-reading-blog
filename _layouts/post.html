@@ -2,66 +2,102 @@
 layout: default
 ---
 
-<article class="reading-article">
-  <header class="article-header">
-    <h1 class="article-title">{{ page.title }}</h1>
-    <div class="article-meta">
-      <time>{{ page.date | date: "%d/%m/%Y" }}</time>
-      {% if page.author %} &middot; <span>Tác giả: {{ page.author }}</span>{% endif %}
-      {% if page.translator %} &middot; <span>Người dịch: {{ page.translator }}</span>{% endif %}
+<article class="post-container">
+  <!-- Phần tiêu đề và thông tin bài viết -->
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta-info">
+      <span class="post-date">{{ page.date | date: "%d/%m/%Y" }}</span>
+      {% if page.category %}
+        <span class="meta-dot">&middot;</span>
+        <span class="post-cat">{{ page.category }}</span>
+      {% endif %}
+      {% if page.author %}
+        <span class="meta-dot">&middot;</span>
+        <span class="post-author">Tác giả: <strong>{{ page.author }}</strong></span>
+      {% endif %}
+      {% if page.translator %}
+        <span class="meta-dot">&middot;</span>
+        <span class="post-translator">Dịch: <strong>{{ page.translator }}</strong></span>
+      {% endif %}
     </div>
   </header>
 
-  <div class="article-content">
+  <!-- Phần nội dung chính nhận trực tiếp font, size, text-color từ front matter -->
+  <div class="post-body" style="
+    {% if page.font_family %}font-family: {{ page.font_family }};{% endif %}
+    {% if page.font_size %}font-size: {{ page.font_size }};{% endif %}
+    {% if page.text_color %}color: {{ page.text_color }};{% endif %}
+  ">
     {{ content }}
   </div>
-
-  <footer class="article-footer">
-    <hr>
-    <p><a href="{{ '/' | relative_url }}">&larr; Quay lại Mục lục</a></p>
-  </footer>
-
-  <section class="comments-area">
-    <h3>Bình luận & Chia sẻ</h3>
-    <script src="https://utteranc.es/client.js"
-            repo="PhamQuyMui43/my-reading-blog"
-            issue-term="pathname"
-            theme="github-light"
-            crossorigin="anonymous"
-            async>
-    </script>
-  </section>
 </article>
 
 <style>
-  .article-header {
-    margin-bottom: 30px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    padding-bottom: 15px;
+  .post-header {
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #d5cebf;
+    text-align: center;
   }
-  .article-title {
-    font-size: 2rem;
+  .post-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 12px;
     line-height: 1.3;
-    margin: 0 0 10px 0;
   }
-  .article-meta {
+  .post-meta-info {
     font-size: 0.9rem;
-    color: #666;
+    color: #7a6e65;
+  }
+  .meta-dot {
+    margin: 0 6px;
+  }
+
+  /* Định dạng nội dung bài đọc */
+  .post-body {
+    line-height: 1.85;
+    text-align: justify;
+  }
+  .post-body p {
+    margin-bottom: 1.5em;
+  }
+
+  /* Ảnh căn phải văn bản */
+  .img-right {
+    float: right;
+    margin: 6px 0 16px 24px;
+    max-width: 280px;
+    text-align: center;
+  }
+  .img-right img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+    display: block;
+  }
+  .img-right .caption {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.85rem;
+    color: #777;
     font-style: italic;
   }
-  .article-content {
-    line-height: 1.9;
+
+  /* Khối ghi chú của người dịch */
+  .translator-note {
+    background-color: rgba(0, 0, 0, 0.035);
+    border-left: 3px solid #9c8e82;
+    padding: 14px 18px;
+    margin: 25px 0;
+    font-size: 0.95em;
+    font-style: italic;
+    border-radius: 0 6px 6px 0;
   }
-  .article-footer {
-    margin-top: 50px;
-  }
-  .article-footer hr {
-    border: none;
-    border-top: 1px dashed #ccc;
-    margin-bottom: 20px;
-  }
-  .comments-area {
-    margin-top: 40px;
-    padding-top: 20px;
+
+  /* Ngắt dòng sau ảnh nổi */
+  .clearfix {
+    clear: both;
   }
 </style>
