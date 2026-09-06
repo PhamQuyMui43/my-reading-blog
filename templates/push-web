@@ -15,6 +15,32 @@ git push origin HEAD:Jekyll
 
 
 
+Mỗi khi bạn viết bài mới, sửa nội dung hoặc thay đổi bất kỳ file nào trong dự án blog này, chỉ cần mở Terminal của VS Code và chạy tuần tự 3 lệnh sau:
+
+```powershell
 git add .
-git commit -m "Cap nhat lmoi"
-git push origin HEAD:Jekyll
+git commit -m "Noi dung ban da sua hoac them moi"
+git push origin jekyll
+
+```
+
+---
+
+### Giải thích nhanh tác dụng từng lệnh:
+
+* **`git add .`**: Gom tất cả các file bạn vừa tạo mới hoặc chỉnh sửa (kể cả ảnh, bài viết trong `_posts/`).
+* **`git commit -m "..."`**: Đóng gói các thay đổi lại kèm một ghi chú ngắn gọn (ví dụ: *"Dang bai viet moi"*, *"Cap nhat index"*).
+* **`git push origin jekyll`**: Đẩy gói cập nhật đó lên đúng nhánh `jekyll` của tài khoản `PhamQuyMui43` trên GitHub để trang web tự động cập nhật.
+
+---
+
+### Mẹo kiểm tra sau khi đẩy:
+
+Muốn biết máy tính và GitHub đã đồng bộ xong xuôi chưa, bạn gõ:
+
+```powershell
+git status
+
+```
+
+Nếu màn hình báo `nothing to commit, working tree clean` nghĩa là toàn bộ dữ liệu đã được đưa lên mạng an toàn.
