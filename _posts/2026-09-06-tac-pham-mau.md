@@ -16,7 +16,7 @@ font_family: "Georgia, 'Times New Roman', serif"
 Mỗi cuốn sách cũ nằm im trong góc tủ đều mang một số phận riêng. Chúng lặng lẽ tích tụ từng lớp bụi của năm tháng, chờ đợi một bàn tay hữu duyên mở từng trang giấy đã ố vàng theo mùa thu.
 
 <div class="img-right">
-  <img src="{{ '/assets/dado.gif' | relative_url }}" alt="Cuốn sách cũ">
+  <img src="/my-reading-blog/assets/dado.gif" alt="Old Whitefish">
   <span class="caption">Trang giấy ngả màu cùng năm tháng</span>
 </div>
 
