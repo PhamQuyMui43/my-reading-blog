@@ -1,12 +1,13 @@
 title: "Phủi Bụi Lãng Quên"
 description: "Blog truyện và tác phẩm chọn lọc"
 baseurl: "/my-reading-blog"
-url: "https://ten-user-cua-ban.github.io"
-exclude:
-  - README.md
+url: "https://PhamQuyMui43.github.io"
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
 exclude:
+  - README.md
   - templates
   - mau
