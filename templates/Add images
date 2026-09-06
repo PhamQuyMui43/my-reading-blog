@@ -1,0 +1,59 @@
+**1. Đưa ảnh vào thư mục `assets**`
+
+* Kéo thả trực tiếp file ảnh từ máy tính vào thư mục `assets/` này.
+* Đổi tên file ảnh thành chữ thường, không dấu, nối bằng dấu gạch ngang để tránh lỗi link trên web (Ví dụ: `bia-sach.jpg` hoặc `trang-giay-cu.png`).
+
+---
+
+**2. Cách chèn ảnh vào bài viết `.md**`
+
+Mở file bài viết trong thư mục `_posts/` và chọn 1 trong các kiểu hiển thị sau:
+
+* **Kiểu 1: Ảnh nằm bên phải, chữ ôm quanh bên trái (Rất hợp cho blog sách)**
+```html
+<div class="img-right">
+  <img src="{{ '/assets/bia-sach.jpg' | relative_url }}" alt="Bìa sách">
+  <span class="caption">Chú thích ảnh ở đây</span>
+</div>
+
+```
+
+
+* **Kiểu 2: Ảnh nằm bên trái, chữ ôm quanh bên phải**
+```html
+<div class="img-left">
+  <img src="{{ '/assets/bia-sach.jpg' | relative_url }}" alt="Bìa sách">
+  <span class="caption">Chú thích ảnh ở đây</span>
+</div>
+
+```
+
+
+* **Kiểu 3: Ảnh căn giữa dòng độc lập (To rõ)**
+```markdown
+![Mô tả ảnh]({{ '/assets/bia-sach.jpg' | relative_url }})
+
+```
+
+
+
+> *Mẹo:* Sau khi dùng kiểu ôm chữ (`img-right` hoặc `img-left`), nếu muốn đoạn văn tiếp theo nhảy xuống hẳn phía dưới ảnh, hãy chèn thêm dòng này ngay trước đoạn văn mới:
+> ```html
+> <div class="clearfix"></div>
+> 
+> ```
+> 
+> 
+
+---
+
+**3. Lưu và đẩy lên web**
+
+Mở Terminal trong VS Code (`Ctrl + ~`) và chạy 3 lệnh quen thuộc:
+
+```powershell
+git add .
+git commit -m "Them anh vao assets va chen vao bai viet"
+git push origin HEAD:Jekyll
+
+```
