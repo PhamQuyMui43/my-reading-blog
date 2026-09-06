@@ -1,18 +1,6 @@
 ---
-layout: post
-title: "The League of the Old Men"
-author: "Jack London"
-translator: "Phủi Bụi Lãng Quên"
-date: 2026-09-07
-category: "Dịch thuật"
-
-# Cấu hình giao diện riêng cho bài đọc:
-font_family: "'Roboto Slab', serif"
-font_size: "18px"
-bg_color: "#fbf8f1"
-text_color: "#2c2621"
+Dickensen không hiểu lão nói gì, và Emily Travis bật cười. Lão Imber quay sang người này rồi người kia, cau mày, nhưng cả hai đều lắc đầu. Lão ta định bỏ đi thì cô gái gọi với ra ngoài:Lão Imber càu nhàu và sán lại gần Emily Travis. Lão nhìn cô chằm chằm, cẩn thận, nhìn từng milimét da thịt trên người cô. Lão đặc biệt tỏ ra thích thú mái tóc nâu mượt mà của cô, và màu má phơn phớt hồng, mềm mại như lớp phấn mịn như nhung trên cánh bướm. Lão đi vòng quanh cô, quan sát cô bằng con mắt một chuyên gia  đang nghiên cứu những đường nét của một con ngựa chiến hay một chiếc thuyền độc bản. Trong lúc đi vòng quanh, vành tai hồng của cô nằm lọt vào giữa tầm mắt lão và ánh sáng trời chiều, và hắn dừng lại để chiêm ngưỡng vẻ trong suốt hồng hồng của nó. Sau đó, hắn quay lại khuôn mặt và nhìn chăm chú vào đôi mắt xanh của cô. Hắn lại càu nhàu và đặt một tay lên cánh tay cô, nơi giữa vai và khuỷu tay. Bằng tay kia, hắn nâng cẳng tay cô lên rồi gập lại. Vẻ ghê tởm và ngạc nhiên hiện rõ trên nét mặt lão, và lão buông tay cô xuống cùng với một tiếng càu nhàu khinh miệt. Sau đó, lão lẩm bẩm vài âm tiết khàn đục, quay lưng lại với cô và tiếp chuyện với Dickensen.br
 ---
-
 Tại doanh trại, một người đàn ông đang bị xét xử về tội danh giết người. Đó là một ông già, thổ dân da đỏ ở mạn dưới Lake Le Barge nơi con sông Whitefish đổ vào dòng sông lớn Yukon. Sự kiện này làm sôi sục cả vùng Dawson, và suốt hàng ngàn dặm từ thượng lưu đến hạ lưu sông Yukon cũng vậy. Tập quán của người Anglo-Saxon, - kẻ cướp đất cướp biển - là dùng luật áp đặt lên dân bản địa, và lẽ thường luật này rất khắc nghiệt. Nhưng trong trường hợp của ông Imber, luật lần này lại tỏ ra khiếm khuyết và bất lực. Xét về phương diện toán học thì hình phạt dành cho ông không thể hiện sự công bằng. Bản án đã được ấn định, chắc chắn, sẽ là án tử hình, Imber chỉ có một mạng sống, trong khi chống lại ông là hàng chục mạng người.
 
 <div class="img-right">
@@ -28,8 +16,8 @@ Một lát sau, Dickensen ra vỉa hè hút xì gà cho thoải mái; và mộ
 
 Họ trò chuyện khoảng mười phút, thì Emily Travis, liếc nhìn qua vai Dickensen, giật mình kêu lên một tiếng nhỏ. Dickensen quay lại nhìn và cũng giật mình. Lão Imber đã băng qua đường và đang đứng ngay bên, một cái bóng gầy gò và đói khát, đôi mắt dán chặt vào cô gái.
 
-<div class="clearfix"></div>
+“Lão muốn gì?” ‘Dicken chuột kẹp’ hỏi, giọng run run cố tỏ vẻ can trường.
 
 <div class="translator-note">
   <strong>Lời người dịch:</strong> Đoạn trích từ truyện ngắn của Jack London phản ánh xung đột khắc nghiệt giữa làn sóng di dân khai mỏ và người bản địa lưu vực sông Yukon. Bản dịch cố gắng tái hiện không khí trầm uất, hoài niệm của tác phẩm.
-</div>
+</div>Dickensen không hiểu lão nói gì, và Emily Travis bật cười. Lão Imber quay sang người này rồi người kia, cau mày, nhưng cả hai đều lắc đầu. Lão ta định bỏ đi thì cô gái gọi với ra ngoài:
