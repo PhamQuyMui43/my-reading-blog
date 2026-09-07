@@ -68,3 +68,51 @@ git remote -v
 
 * Nếu thấy xuất hiện `PhamQuyMui43` $\rightarrow$ Đẩy bằng lệnh: `git push origin HEAD:Jekyll`
 * Nếu thấy xuất hiện `72vietnam-ai` $\rightarrow$ Đẩy bằng lệnh: `git push origin main`
+
+
+
+
+Để mở thư mục blog **`PhuiBuiLangQuen`** trong VS Code và làm việc mà không bị lẫn sang blog kia, bạn thao tác như sau:
+
+---
+
+### Cách 1: Mở trực tiếp từ menu của VS Code
+
+1. Nhìn lên thanh menu trên cùng của VS Code, chọn **File** $-> **Open Folder...** (hoặc bấm tổ hợp phím **`Ctrl + K`** rồi buông tay bấm tiếp **`Ctrl + O`**).
+2. Tìm đến nơi bạn lưu thư mục **`PhuiBuiLangQuen`** trên máy tính (thường nằm ở ngoài Desktop hoặc trong ổ đĩa lưu trữ của bạn).
+3. Bấm chọn thư mục đó và nhấn **Select Folder**.
+
+---
+
+### Cách 2: Mở nhanh qua chuột phải từ màn hình máy tính
+
+1. Thu nhỏ VS Code lại, tìm thư mục có tên **`PhuiBuiLangQuen`** trên máy tính.
+2. Click chuột phải vào thư mục đó $\rightarrow$ chọn **Open with Code**.
+
+---
+
+### Sau khi mở thư mục `PhuiBuiLangQuen`: Cấu hình nhận diện đúng tài khoản
+
+Mở Terminal mới trong VS Code (**`Ctrl + ``**) và chạy các dòng sau để cố định danh tính cho blog này:
+
+```powershell
+# 1. Kiểm tra xem đã đúng kho chưa
+git remote -v
+
+# 2. Cố định email và tài khoản của blog này (chỉ chạy 1 lần)
+git config user.name "72vietnam-ai"
+git config user.email "72vietnam@gmail.com"
+
+# 3. Kiểm tra nhánh hiện tại
+git branch
+
+```
+
+Sau khi cấu hình xong, mỗi lần viết bài mới hay sửa đổi ở thư mục này, bạn chỉ cần dùng cụm lệnh của nhánh **`main`**:
+
+```powershell
+git add .
+git commit -m "Cap nhat blog PhuiBuiLangQuen"
+git push origin main
+
+```
