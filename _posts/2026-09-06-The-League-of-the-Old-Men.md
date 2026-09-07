@@ -29,6 +29,8 @@ Một lát sau, Dickensen ra vỉa hè hút xì gà cho thoải mái; và mộ
 
 Họ trò chuyện khoảng mười phút, thì Emily Travis, liếc nhìn qua vai Dickensen, giật mình kêu lên một tiếng nhỏ. Dickensen quay lại nhìn và cũng giật mình. Lão Imber đã băng qua đường và đang đứng ngay bên, một cái bóng gầy gò và đói khát, đôi mắt dán chặt vào cô gái.
 
+“Lão muốn gì?” ‘Dicken chuột kẹp’ hỏi, giọng run run cố tỏ vẻ can trường.
+
 <div class="clearfix"></div>
 
 <div class="translator-note">
