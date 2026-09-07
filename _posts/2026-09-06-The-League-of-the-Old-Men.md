@@ -31,6 +31,16 @@ Họ trò chuyện khoảng mười phút, thì Emily Travis, liếc nhìn qua v
 
 “Lão muốn gì?” ‘Dicken chuột kẹp’ hỏi, giọng run run cố tỏ vẻ can trường.
 
+Lão Imber càu nhàu và sán lại gần Emily Travis. Lão nhìn cô chằm chằm, cẩn thận, nhìn từng milimét da thịt trên người cô. Lão đặc biệt tỏ ra thích thú mái tóc nâu mượt mà của cô, và màu má phơn phớt hồng, mềm mại như lớp phấn mịn như nhung trên cánh bướm. Lão đi vòng quanh cô, quan sát cô bằng con mắt một chuyên gia  đang nghiên cứu những đường nét của một con ngựa chiến hay một chiếc thuyền độc bản. Trong lúc đi vòng quanh, vành tai hồng của cô nằm lọt vào giữa tầm mắt lão và ánh sáng trời chiều, và hắn dừng lại để chiêm ngưỡng vẻ trong suốt hồng hồng của nó. Sau đó, hắn quay lại khuôn mặt và nhìn chăm chú vào đôi mắt xanh của cô. Hắn lại càu nhàu và đặt một tay lên cánh tay cô, nơi giữa vai và khuỷu tay. Bằng tay kia, hắn nâng cẳng tay cô lên rồi gập lại. Vẻ ghê tởm và ngạc nhiên hiện rõ trên nét mặt lão, và lão buông tay cô xuống cùng với một tiếng càu nhàu khinh miệt. Sau đó, lão lẩm bẩm vài âm tiết khàn đục, quay lưng lại với cô và tiếp chuyện với Dickensen.
+
+Dickensen không hiểu lão nói gì, và Emily Travis bật cười. Lão Imber quay sang người này rồi người kia, cau mày, nhưng cả hai đều lắc đầu. Lão ta định bỏ đi thì cô gái gọi với ra ngoài:
+
+“Này, Jimmy! Lại đây đi!”
+
+Từ phía bên kia đường Jimmy bước sang. Anh ta là một gã đàn ông da đỏ to lớn, kềnh càng, ăn mặc đúng kiểu người da trắng, đội chiếc mũ rộng vành của vua Eldorado. Anh nói chuyện với Imber một cách ngắc ngứ, như nghẹn trong cổ họng. Jimmy là người Sitka ven biển, nên chỉ biết sơ sài các phương ngữ vùng sâu trong đất liền.
+
+“Ông ấy  là người bộ lạc Cá trắng,” anh ta nói với Emily Travis. “Tôi cũng không nhiều lắm…hiểu ông ta . Ông ấy muốn nhìn gặp Ông Sếp da trắng.”
+
 <div class="clearfix"></div>
 
 <div class="translator-note">
