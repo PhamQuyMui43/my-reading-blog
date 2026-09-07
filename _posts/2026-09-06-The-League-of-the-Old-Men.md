@@ -1,5 +1,5 @@
 ---
-layout: post
+Một lát sau, Dickensen ra vỉa hè hút xì gà cho thoải mái; và một chút xíu sau,  Emily Travis tình cờ xuất hiện. Emily Travis nhỏ nhắn, mảnh mai, và khác biệt, dù ở London hay ở Klondike nàng đều ăn mặc tinh tế đúng như con gái của một kỹ sư khai thác mỏ triệu phú. ‘Dicken chuột kẹp’ đặt điếu xì gà lên bệ ngoài cửa sổ để dễ tìm lại, rồi nhấc mũ lên chào.Một lát sau, Dickensen ra vỉa hè hút xì gà cho thoải mái; và một chút xíu sau,  Emily Travis tình cờ xuất hiện. Emily Travis nhỏ nhắn, mảnh mai, và khác biệt, dù ở London hay ở Klondike nàng đều ăn mặc tinh tế đúng như con gái của một kỹ sư khai thác mỏ triệu phú. ‘Dicken chuột kẹp’ đặt điếu xì gà lên bệ ngoài cửa sổ để dễ tìm lại, rồi nhấc mũ lên chào.Dickensen tiếp tục nhìn ra ngoài cửa sổ, và về sau, anh cũng luôn tự hào về sự tinh tường, nhạy cảm của mình. Là một anh chàng có máu văn chương, anh ví von lão già ngoại đạo ngồi bất động ngoài kia với vị thần linh của bộ tộc da đỏ Siwash, đang câm lặng dõi nhìn đám quân xâm lược Anglo-Saxon. Thời gian cứ trôi qua, nhưng Imber không hề thay đổi thế ngồi, không hề một ly nhúc nhích; và Dickensen liên tưởng tới một vị thủ lĩnh ngồi thẳng đường bệ trên chiếc xe trượt tuyết giữa con phố chính nơi người người qua lại. Người ta nghĩ lão đang nghỉ ngơi, nhưng sau đó, chạm vào, họ phát hiện lão đã cứng đơ lạnh ngắt, lão đã chết ngắc giữa đường phố đông người. Để có thể cho lão vào quan tài, họ  phải khiêng lão đến gần đống lửa , làm tan băng, làm mềm xác lão. Dickensen phát ớn lạnh khi nhớ lại cảnh đó.layout: post
 title: "The League of the Old Men"
 author: "Jack London"
 translator: "Phủi Bụi Lãng Quên"
@@ -12,7 +12,6 @@ font_size: "18px"
 bg_color: "#fbf8f1"
 text_color: "#2c2621"
 ---
-
 Tại doanh trại, một người đàn ông đang bị xét xử về tội danh giết người. Đó là một ông già, thổ dân da đỏ ở mạn dưới Lake Le Barge nơi con sông Whitefish đổ vào dòng sông lớn Yukon. Sự kiện này làm sôi sục cả vùng Dawson, và suốt hàng ngàn dặm từ thượng lưu đến hạ lưu sông Yukon cũng vậy. Tập quán của người Anglo-Saxon, - kẻ cướp đất cướp biển - là dùng luật áp đặt lên dân bản địa, và lẽ thường luật này rất khắc nghiệt. Nhưng trong trường hợp của ông Imber, luật lần này lại tỏ ra khiếm khuyết và bất lực. Xét về phương diện toán học thì hình phạt dành cho ông không thể hiện sự công bằng. Bản án đã được ấn định, chắc chắn, sẽ là án tử hình, Imber chỉ có một mạng sống, trong khi chống lại ông là hàng chục mạng người.
 
 <div class="img-right">
