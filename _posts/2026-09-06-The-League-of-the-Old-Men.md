@@ -23,6 +23,12 @@ Tay lão vấy máu của rất nhiều người, những vụ giết người �
 
 Nhưng người hùng của câu chuyện lại thuộc về Dickensen, Dickensen nhỏ bé. ‘Dicken chuột kẹp’ đến vùng đất này với những giấc mơ lớn và một túi tiền đầy; nhưng khi túi tiền rỗng tuyếch thì những giấc mơ cũng tan biến, và để kiếm tiền trở về Mỹ, anh đã nhận một chân thư ký tại công ty môi giới chứng khoán Holbrook và Mason. Bên kia đường đối diện văn phòng công ty Holbrook và Mason là đống gỗ nơi lão Imber đang ngồi. Trước khi đi ăn trưa Dickensen nhìn ra cửa sổ; và khi ăn xong trở về, anh lại nhìn ra cửa sổ, và lão già Siwash vẫn ngồi ở đó.
 
+Dickensen tiếp tục nhìn ra ngoài cửa sổ, và về sau, anh cũng luôn tự hào về sự tinh tường, nhạy cảm của mình. Là một anh chàng có máu văn chương, anh ví von lão già ngoại đạo ngồi bất động ngoài kia với vị thần linh của bộ tộc da đỏ Siwash, đang câm lặng dõi nhìn đám quân xâm lược Anglo-Saxon. Thời gian cứ trôi qua, nhưng Imber không hề thay đổi thế ngồi, không hề một ly nhúc nhích; và Dickensen liên tưởng tới một vị thủ lĩnh ngồi thẳng đường bệ trên chiếc xe trượt tuyết giữa con phố chính nơi người người qua lại. Người ta nghĩ lão đang nghỉ ngơi, nhưng sau đó, chạm vào, họ phát hiện lão đã cứng đơ lạnh ngắt, lão đã chết ngắc giữa đường phố đông người. Để có thể cho lão vào quan tài, họ  phải khiêng lão đến gần đống lửa , làm tan băng, làm mềm xác lão. Dickensen phát ớn lạnh khi nhớ lại cảnh đó.
+
+Một lát sau, Dickensen ra vỉa hè hút xì gà cho thoải mái; và một chút xíu sau,  Emily Travis tình cờ xuất hiện. Emily Travis nhỏ nhắn, mảnh mai, và khác biệt, dù ở London hay ở Klondike nàng đều ăn mặc tinh tế đúng như con gái của một kỹ sư khai thác mỏ triệu phú. ‘Dicken chuột kẹp’ đặt điếu xì gà lên bệ ngoài cửa sổ để dễ tìm lại, rồi nhấc mũ lên chào.
+
+Họ trò chuyện khoảng mười phút, thì Emily Travis, liếc nhìn qua vai Dickensen, giật mình kêu lên một tiếng nhỏ. Dickensen quay lại nhìn và cũng giật mình. Lão Imber đã băng qua đường và đang đứng ngay bên, một cái bóng gầy gò và đói khát, đôi mắt dán chặt vào cô gái.
+
 <div class="clearfix"></div>
 
 <div class="translator-note">
