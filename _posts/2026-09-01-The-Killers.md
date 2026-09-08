@@ -52,6 +52,77 @@ George nhìn đồng hồ treo trên tường phía sau quầy.
 
 “Ồ, mẹ cái đồng hồ,” người thứ nhất nói. “Vậy có gì để ăn không?"
 
+“Quán có các loại bánh xăng-uých,” George nói. “Ông có thể dùng giăm bông và trứng, thịt xông khói và trứng, gan và thịt xông khói, hoặc bít tết.”
+
+“Cho gà viên chiên giòn với đậu Hà Lan và sốt kem, kèm khoai tây nghiền.”
+
+"Món đó của bữa tối."
+
+“Tất cả những gì bọn tao gọi đều của bữa tối,? Chúng mày làm ăn kiểu đó hả.”
+
+
+“Quán có thể phục vụ ông giăm bông và trứng, thịt xông khói và trứng, gan—”
+
+“Cho tao giăm bông và trứng,” người đàn ông tên Al nói. Hắn đội mũ phớt chóp tròn và mặc áo khoác dài màu đen cài nút ngang ngực. Mặt hắn nhỏ, trắng với đôi môi mím chặt. Hắn quàng khăn lụa và đeo găng tay.
+
+
+“Tao, thịt xông khói và trứng,” người kia nói. Hắn có vóc dáng tương đương với Al. Nét mặt chúng khác nhau, nhưng trang phục thì giống hệt nhau. Cả hai đều mặc áo khoác quá chật. Chúng ngồi chồm về trước, khuỷu tay đặt trên quầy.
+
+
+“Có gì để uống?” Al hỏi.
+
+
+“Bia Silver, bia hơi, soda gừng,” George nói.
+
+"Tao hỏi, có gì để nhậu không?"
+
+“Chỉ mấy thứ tôi vừa kể.”
+
+
+“Ở đây nóng thật,” người kia nói. “Thị trấn này tên gì?”
+
+
+“Summit.”
+
+
+“Nghe bao giờ chưa?” Al hỏi bạn mình.
+
+
+“Chưa,” người kia đáp.
+
+
+“Ở đây buổi tối các bồ làm chuyện gì?” Al hỏi.
+
+
+“Các bạn ấy ăn tối,” bạn hắn nói. “Toàn thể mọi người tề tựu ở đây  và chén một bữa tối thịnh soạn.”
+
+
+“Đúng vậy,” George nói.
+
+
+“Vậy là bồ nghĩ, đúng như thế sao?” Al hỏi George.
+
+
+"Chắc vậy."
+
+
+"Bồ là một anh chàng thông minh, phải không?"
+
+
+“Chắc vậy,” George nói.
+
+
+“Thật ra thì không đâu, mày,” người   kia nói. “Phải không, Al?”
+
+
+“Nó là một thằng ngu,” Al nói. Hắn quay sang Nick. “Tên mày là gì?”
+
+
+“Adams.”
+
+
+
+
 <div class="clearfix"></div>
 
 <div class="translator-note">
