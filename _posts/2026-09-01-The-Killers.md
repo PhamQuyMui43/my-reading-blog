@@ -11,38 +11,42 @@ category: "phui-bui-lang-quen"
 # text_color: "#f1f5f9"
 ---
 
-Cánh cửa tiệm ăn của Henry mở ra và hai người đàn ông bước vào. Họ ngồi xuống bên quầy.
+Cánh cửa quán ăn Henry mở ra và hai người bước vào. Họ ngồi xuống trước quầy.
 
-"Gọi món gì đây?" George hỏi.
 
-"Tôi không biết," một trong hai người nói. "Anh muốn ăn gì, Al?"
+“Các anh dùng chi?” George hỏi họ.
+
+“Chưa biết,” một người nói. “Mày ăn gì, Al?”
+
+“Chưa biết,” Al nói. “Tao không biết mình muốn ăn gì.”
 
 <div class="img-right">
-  <img src="{{ '/assets/killers.png.gif' | relative_url }}" alt="Minh họa The Killers">
-  <span class="caption">Al và Goerge</span>
+  <img src="{{ '/assets/killers.png' | relative_url }}" alt="Minh họa The Killers">
+  <span class="caption">Al và Max</span>
 </div>
 
-"Tôi chẳng biết," Al trả lời. "Tôi chẳng biết mình muốn ăn gì nữa."
+“Cho thăn heo nướng với nước sốt táo và khoai tây nghiền,” người thứ nhất nói.
 
-Bên ngoài trời đang tối dần. Đèn đường bên ngoài cửa sổ hắt qua tấm kính. Hai người đàn ông nhìn vào thực đơn. Nick Adams từ một góc của quầy nhìn họ. Anh đã trò chuyện với George trước khi họ bước vào.
+“Món đó chưa có.”
 
-"Cho tôi món thịt lợn thăn kèm nước sốt táo và khoai tây nghiền," người đàn ông đầu tiên nói.
 
-"Chưa tới giờ bán món đó," George nói.
+“Thế, ghi nó vào menu làm mẹ gì?”.
 
-"Thế quỷ nào anh lại đưa nó vào thực đơn?"
+“Món đó của bữa tối,” George giải thích. “Ông có thể dùng nó lúc sáu giờ.”
 
-"Đó là bữa tối," George giải thích. "Quý khách có thể dùng bữa đó lúc sáu giờ."
+George nhìn đồng hồ treo trên tường phía sau quầy.
 
-George nhìn lên chiếc đồng hồ trên tường phía sau quầy.
 
-"Bây giờ mới năm giờ thôi."
+“Bây giờ mới năm giờ.”
 
-"Đồng hồ chỉ năm giờ hai mươi," người đàn ông thứ hai nói.
 
-"Nó chạy nhanh hai mươi phút đấy."
+“Đồng hồ chỉ 5 giờ 20 phút,” người  thứ hai nói.
 
-"Mẹ kiếp cái đồng hồ," người đàn ông thứ nhất nói. "Thế anh có cái gì dùng được bây giờ?"
+
+“Đồng hồ nhanh hai mươi phút.”
+
+
+“Ồ, mẹ cái đồng hồ,” người thứ nhất nói. “Vậy có gì để ăn không?"
 
 <div class="clearfix"></div>
 
