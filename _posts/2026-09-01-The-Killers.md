@@ -15,9 +15,15 @@ font_family: "'Times New Roman', Times, serif"
 
 Cánh cửa quán ăn Henry mở ra và hai người bước vào. Họ ngồi xuống trước quầy.
 
+
+
 “Các anh dùng chi?” George hỏi họ.
 
+
+
 “Chưa biết,” một người nói. “Mày ăn gì, Al?”
+
+
 
 “Chưa biết,” Al nói. “Tao không biết mình muốn ăn gì.”
 
@@ -25,7 +31,9 @@ Bên ngoài trời bắt đầu tối. Ngọn đèn đường ngoài cửa s�
 
 “Cho thăn heo nướng với sốt táo và khoai tây nghiền,” người thứ nhất nói.
 
+
 “Món đó chưa có.”
+
 
 “Thế, ghi nó vào menu làm mẹ gì?”
 
