@@ -53,7 +53,10 @@ git add .
 git commit -m "Cap nhat noi dung blog My Reading Blog"
 git push origin HEAD:Jekyll
 
-```
+```da doi ten branch từ Jekyll thành jekyll, xóa Jekyll, tu nay push :
+git add .
+git commit -m "Noi dung commit"
+git push
 
 ---
 

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article class="post-container">
-  <!-- Phần thông tin đầu bài viết -->
+  <!-- 1. Tiêu đề và Thông tin bài viết -->
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     
@@ -26,12 +26,12 @@ layout: default
     </div>
   </header>
 
-  <!-- Nội dung bài viết -->
+  <!-- 2. Thân nội dung bài viết -->
   <div class="post-body">
     {{ content }}
   </div>
 
-  <!-- Nút điều hướng chân bài viết -->
+  <!-- 3. Điều hướng chân trang -->
   <footer class="post-footer">
     <div class="divider-ornament">❖ ❖ ❖</div>
     <a href="{{ site.baseurl }}/" class="btn-back">← Quay lại Mục lục</a>
@@ -39,18 +39,18 @@ layout: default
 </article>
 
 <style>
-  /* 1. Nền tổng thể ngoài rìa màn hình máy tính: Tối sâu thẳm, triệt tiêu cảm giác trống trải */
+  /* Nền bao quanh ngoài rìa màn hình lớn */
   body {
     margin: 0;
     padding: 0;
-    background-color: #080c14;
+    background-color: {{ page.outer_bg | default: "#070b12" }};
   }
 
-  /* 2. Khung trang sách 780px chuẩn tỷ lệ vàng ở giữa màn hình */
+  /* Khung đọc 780px trung tâm chuẩn tỷ lệ sách */
   .post-container {
     max-width: 780px;
     margin: 40px auto 80px auto;
-    padding: 45px 40px 70px 40px;
+    padding: 45px 38px 70px 38px;
     line-height: 1.85;
     background-color: {{ page.bg_color | default: "#0f172a" }};
     color: {{ page.text_color | default: "#e2e8f0" }};
@@ -58,29 +58,30 @@ layout: default
     font-size: {{ page.font_size | default: "20px" }};
     box-sizing: border-box;
 
-    /* Hiệu ứng trang sách nổi: viền mảnh và đổ bóng mềm mại */
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    /* Viền mảnh và bóng đổ tạo chiều sâu trang sách */
+    border: 1px solid rgba(128, 128, 128, 0.18);
     border-radius: 8px;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5), 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
   }
 
-  /* 3. Tiêu đề và thông tin đầu bài */
+  /* Header: Tự động đổi màu chữ theo theme sáng/tối */
   .post-header {
     text-align: center;
     margin-bottom: 35px;
     padding-bottom: 22px;
-    border-bottom: 1px solid rgba(226, 232, 240, 0.15);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
   }
   .post-title {
     font-size: 2.2rem;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 1.35;
     margin: 0 0 14px 0;
-    color: #ffffff;
+    color: {{ page.text_color | default: "#ffffff" }};
   }
   .post-metadata {
     font-size: 0.95rem;
-    color: #94a3b8;
+    color: {{ page.text_color | default: "#94a3b8" }};
+    opacity: 0.85;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,39 +89,38 @@ layout: default
     gap: 8px;
   }
   .meta-separator {
-    opacity: 0.4;
+    opacity: 0.45;
   }
   .category-badge {
-    background-color: rgba(56, 189, 248, 0.15);
-    color: #38bdf8;
+    background-color: rgba(128, 128, 128, 0.15);
     padding: 2px 10px;
     border-radius: 4px;
     font-size: 0.85rem;
   }
 
-  /* 4. Thân bài viết */
+  /* Định dạng đoạn văn */
   .post-body {
     text-align: justify;
     text-justify: inter-word;
-    color: inherit;
+    color: {{ page.text_color | default: "#e2e8f0" }};
   }
   .post-body p {
     margin-bottom: 1.6em;
     color: inherit;
   }
 
-  /* 5. Khối ảnh minh họa trên MÁY TÍNH */
+  /* Khối ảnh nổi bên phải trên máy tính */
   .img-right {
     float: right;
     width: 250px;
     max-width: 42%;
     margin: 6px 0 18px 24px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(128, 128, 128, 0.08);
     padding: 6px;
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(128, 128, 128, 0.2);
     border-radius: 6px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   }
   .img-right img {
     width: 100%;
@@ -132,7 +132,8 @@ layout: default
     display: block;
     font-size: 0.82rem;
     font-style: italic;
-    color: #94a3b8;
+    color: {{ page.text_color | default: "#94a3b8" }};
+    opacity: 0.78;
     margin-top: 6px;
     line-height: 1.35;
   }
@@ -141,27 +142,27 @@ layout: default
     clear: both;
   }
 
-  /* 6. Khung lời người dịch */
+  /* Khung Lời người dịch: Thích ứng tự nhiên cho cả nền sáng lẫn tối */
   .translator-note {
-    background: #1e293b;
+    background: rgba(128, 128, 128, 0.1);
     border-left: 4px solid #38bdf8;
     padding: 16px 20px;
     margin: 35px 0;
     border-radius: 0 6px 6px 0;
     font-size: 0.92em;
     font-style: italic;
-    color: #cbd5e1;
+    color: {{ page.text_color | default: "#cbd5e1" }};
     line-height: 1.65;
   }
 
-  /* 7. Chân bài viết */
+  /* Chân bài */
   .post-footer {
     text-align: center;
     margin-top: 50px;
     padding-top: 20px;
   }
   .divider-ornament {
-    color: #64748b;
+    opacity: 0.5;
     font-size: 0.95rem;
     margin-bottom: 25px;
     letter-spacing: 4px;
@@ -169,19 +170,18 @@ layout: default
   .btn-back {
     display: inline-block;
     padding: 8px 22px;
-    border: 1px solid rgba(226, 232, 240, 0.3);
+    border: 1px solid rgba(128, 128, 128, 0.35);
     border-radius: 20px;
-    color: #e2e8f0;
+    color: {{ page.text_color | default: "#e2e8f0" }};
     text-decoration: none;
     font-size: 0.9rem;
     transition: all 0.2s ease;
   }
   .btn-back:hover {
-    background-color: rgba(226, 232, 240, 0.15);
-    color: #ffffff;
+    background-color: rgba(128, 128, 128, 0.18);
   }
 
-  /* 8. TỰ ĐỘNG TỐI ƯU CHO MÀN HÌNH ĐIỆN THOẠI (Samsung, iPhone...) */
+  /* Tối ưu hóa hiển thị trên di động */
   @media (max-width: 780px) {
     body {
       background-color: {{ page.bg_color | default: "#0f172a" }};
