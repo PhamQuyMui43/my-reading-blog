@@ -14,7 +14,7 @@ font_family: "'Times New Roman', Times, serif"
 Bóng đêm buông xuống thung lũng như một tấm màn nhung dày đặc, nuốt chửng những rặng thông già nua đứng lặng câm bên triền dốc. Gió từ đỉnh núi tuyết tràn về mang theo hơi ẩm buốt giá, luồn qua từng khe gỗ của căn chòi nhỏ, nơi ngọn lửa trong lò sưởi chỉ còn lập lòe những đốm tàn đỏ ối.
 
 <div class="img-right">
-  <img src="{{ '/assets/dado.gif' | relative_url }}" alt="Minh họa">
+  <img src="{{ '/assets/Geminidendem.png' | relative_url }}" alt="Minh họa">
   <span class="caption">Đêm tĩnh lặng nơi phương Bắc</span>
 </div>
 
