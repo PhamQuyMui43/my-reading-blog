@@ -1,0 +1,91 @@
+---
+layout: post
+title: "Đọc Sách Trong Đêm"
+author: "Phủi Bụi Lãng Quên"
+date: 2026-09-01
+category: "Tản văn"
+
+bg_color: "#1e293b"
+text_color: "#f1f5f9"
+font_size: "20px"
+font_family: "'Times New Roman', Times, serif"
+---
+
+<h1 style="color: #ffffff; font-size: 2.3rem; font-weight: bold; text-align: center; margin-top: 10px; margin-bottom: 25px; font-family: 'Times New Roman', Times, serif; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">
+  Đọc Sách Trong Đêm
+</h1>
+
+<div style="background-color: #1e293b; color: #f1f5f9; font-family: 'Times New Roman', Times, serif; font-size: 20px; line-height: 1.85; padding: 15px; border-radius: 8px;">
+
+Khi bóng đêm buông xuống, vạn vật chìm vào yên lặng, chỉ còn lại ánh đèn vàng và mùi giấy cũ thân quen. Đọc sách trong đêm không chỉ để tìm kiếm con chữ, mà là tìm về một khoảng lặng cho chính tâm hồn mình.
+
+<div class="img-right" style="float: right; width: 45%; max-width: 220px; margin: 4px 0 14px 18px; text-align: center;">
+  <img src="{{ '/assets/dado.gif' | relative_url }}" alt="Minh họa" style="width: 100%; border-radius: 6px; box-shadow: 0 4px 14px rgba(0,0,0,0.6); border: 1px solid #334155;">
+  <span class="caption" style="display: block; font-size: 14px; color: #cbd5e1; font-style: italic; margin-top: 6px;">Khoảnh khắc tĩnh lặng</span>
+</div>
+
+Trang sách lật nhẹ trong đêm như tiếng thì thầm của thời gian. Mỗi câu chuyện mở ra là một cuộc hành trình mới, nơi người đọc có thể gửi gắm những suy tư và quên đi những nhọc nhằn của một ngày dài.
+
+<div style="clear: both;"></div>
+
+<div class="translator-note" style="background: #334155; border-left: 4px solid #38bdf8; color: #f8fafc; padding: 14px 18px; margin-top: 25px; font-size: 17px; font-style: italic; border-radius: 0 6px 6px 0;">
+  <strong>Ghi chú:</strong> Nền đã được nâng tông sáng hơn sang xanh phiến thạch (#1e293b) và chữ nâng lên trắng sáng (#f1f5f9) giúp bài viết sáng rõ, tiêu đề hiển thị nổi bật.
+</div>
+
+</div>
+
+
+
+
+
+---
+layout: post
+title: "Những Kẻ Giết Người (The Killers)"
+author: "Ernest Hemingway"
+translator: "Phủi Bụi Lãng Quên"
+date: 2026-09-01
+category: "phui-bui-lang-quen"
+
+# Tùy biến giao diện (nếu muốn dùng bảng màu tối, hãy bỏ dấu # phía trước)
+# bg_color: "#1e293b"
+# text_color: "#f1f5f9"
+---
+
+Cánh cửa tiệm ăn của Henry mở ra và hai người đàn ông bước vào. Họ ngồi xuống bên quầy.
+
+"Gọi món gì đây?" George hỏi.
+
+"Tôi không biết," một trong hai người nói. "Anh muốn ăn gì, Al?"
+
+<div class="img-right">
+  <img src="{{ '/assets/dado.gif' | relative_url }}" alt="Minh họa The Killers">
+  <span class="caption">Hai vị khách lạ mặt</span>
+</div>
+
+"Tôi chẳng biết," Al trả lời. "Tôi chẳng biết mình muốn ăn gì nữa."
+
+Bên ngoài trời đang tối dần. Đèn đường bên ngoài cửa sổ hắt qua tấm kính. Hai người đàn ông nhìn vào thực đơn. Nick Adams từ một góc của quầy nhìn họ. Anh đã trò chuyện với George trước khi họ bước vào.
+
+"Cho tôi món thịt lợn thăn kèm nước sốt táo và khoai tây nghiền," người đàn ông đầu tiên nói.
+
+"Chưa tới giờ bán món đó," George nói.
+
+"Thế quỷ nào anh lại đưa nó vào thực đơn?"
+
+"Đó là bữa tối," George giải thích. "Quý khách có thể dùng bữa đó lúc sáu giờ."
+
+George nhìn lên chiếc đồng hồ trên tường phía sau quầy.
+
+"Bây giờ mới năm giờ thôi."
+
+"Đồng hồ chỉ năm giờ hai mươi," người đàn ông thứ hai nói.
+
+"Nó chạy nhanh hai mươi phút đấy."
+
+"Mẹ kiếp cái đồng hồ," người đàn ông thứ nhất nói. "Thế anh có cái gì dùng được bây giờ?"
+
+<div class="clearfix"></div>
+
+<div class="translator-note">
+  <strong>Lời người dịch:</strong> "The Killers" của Ernest Hemingway là tác phẩm tiêu biểu cho phong cách "Tảng băng trôi" (Iceberg Theory) với lối đối thoại cụt ngủn, dồn dập và ẩn giấu bầu không khí ngột ngạt, đe dọa của tội ác ngầm.
+</div>

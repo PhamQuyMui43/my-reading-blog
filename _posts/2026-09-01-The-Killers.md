@@ -12,7 +12,7 @@ category: "phui-bui-lang-quen"
 bg_color: "#1e293b"
 text_color: "#f1f5f9"
 font_size: "20px"
-font_family: "'Times New Roman', Times, serif"
+font_family: "'Roboto Slab',serif"
 ---
 
 Cánh cửa quán ăn Henry mở ra và hai người bước vào. Họ ngồi xuống trước quầy.
