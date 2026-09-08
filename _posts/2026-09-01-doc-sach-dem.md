@@ -17,7 +17,7 @@ Khi bóng đêm buông xuống, vạn vật chìm vào yên lặng, chỉ còn l
 
 <!-- Khối chèn ảnh: Trên điện thoại gọn gàng 45%, trên máy tính lệch phải trang nhã -->
 <div class="img-right" style="float: right; width: 45%; max-width: 220px; margin: 4px 0 12px 18px; text-align: center;">
-  <img src="{{ '/assets/killers.gif' | relative_url }}" alt="Minh họa" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.5);">
+  <img src="{{ '/assets/killers.png' | relative_url }}" alt="Minh họa" style="width: 100%; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.5);">
   <span class="caption" style="display: block; font-size: 14px; color: #94a3b8; font-style: italic; margin-top: 6px;">Khoảnh khắc tĩnh lặng</span>
 </div>
 
