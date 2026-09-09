@@ -25,7 +25,7 @@ Lão đã một mình một thuyền câu cá trên dòng Hải Lưu suốt tám
 Thằng bé buồn khi nhìn thấy ông lão mỗi ngày trở về với chiếc thuyền trống không, và nó luôn đi xuống bến để đỡ lão xách những cuộn dây câu cuộn tròn, hay cái móc và cái lao, cùng cánh buồm quấn quanh cột buồm. Cánh buồm được vá chằng chịt bằng những bao tải bột mì, khi cuộn lại trông chẳng khác nào lá cờ của một sự chiến bại vĩnh viễn.
 
 <div class="img-right">
-  <img src="{{ '/assets/dado.gif' | relative_url }}" alt="Chiếc thuyền ngoài khơi xa">
+  <img src="{{ '/assets/oldman-sea.png' | relative_url }}" alt="Chiếc thuyền ngoài khơi xa">
   <span class="caption">Hành trình đơn độc ngoài đại dương</span>
 </div>
 
